@@ -1,0 +1,27 @@
+<html>
+    <body>
+        
+        <form id="form">
+            First Number <input type="text" id="first" name="firstNumber"><br>
+            Second Number <input type="text" id="second" name="secondNumber"><br>
+            <form>
+                <input type="radio" id="add" name="operation" value="add">
+                <label for="add">Add</label><br>
+                <input type="radio" id="sub" name="operation" value="sub">
+                <label for="sub">Sub</label><br>
+                <input type="radio" id="mult" name="operation" value="mult">
+                <label for="mult">Mult</label><br>
+                <input type="radio" id="div" name="operation" value="div">
+                <label for="div">Div</label>
+            </form>
+        </form>
+        
+        <button onclick="change()">Click Me!</button>
+
+
+        <h1>The result is <span id="result"></span></h1>
+
+        <script src="calculator.js"></script>
+    </body>
+
+</html>
