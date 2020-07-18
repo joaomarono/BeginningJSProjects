@@ -1,0 +1,14 @@
+.tiles{
+    border: black solid 1px;
+    background-color: cadetblue;
+    margin: 1%;
+    float: left;
+    width: 16%;
+    height: 200px;
+
+}
+
+#start, #reset{
+    display: block;
+    margin-top: 1%;
+}
