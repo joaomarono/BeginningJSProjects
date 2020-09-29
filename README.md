@@ -1,2 +1,2 @@
 # BeginningJSProjects
-This are small programs, that i use to learn javascript
+This are small programs that i used to learn javascript
